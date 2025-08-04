@@ -2,8 +2,6 @@
 
 ##### Ejercicio n° 1: Hola Mundo!
 
-/// ```js
-
 ```js
 void setup() {
   Serial.begin(9600); // Inicia la comunicación serie a 9600 bps
