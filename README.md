@@ -1,6 +1,6 @@
 # INTERFAZ II
 
-##### Ejercicio n° 1: Hola Mundo!
+##### Ejercicio n° 1: "Hola Mundo!" en Arduino.
 
 ```js
 void setup() {
