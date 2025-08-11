@@ -27,6 +27,36 @@ void loop() {   // Se repite infinitamente
 }
 ```
 
+##### Control por Pulsador
+Objetivo: Encender un LED solo al presionar un botón. Circuito: Pulsador en pin 2 (con resistencia pull-down de 10k Ω). LED en pin 13.
+```js
+void setup() {
+  pinMode(2, INPUT);  // Botón como entrada
+  pinMode(13, OUTPUT);
+}
+void loop() {
+  if (digitalRead(2) == HIGH) {  // Si se presiona el botón
+    digitalWrite(13, HIGH);
+  } else {
+    digitalWrite(13, LOW);
+  }
+}
+```
+
+##### LED con Potenciómetro
+Objetivo: Regular brillo de un LED con un potenciómetro. Circuito: Potenciómetro: Patas extremas a +5V y GND, central a pin A0. LED en pin 9 (con resistencia 220 Ω).
+```js
+void setup() {
+  pinMode(9, OUTPUT);  // Pin PWM (símbolo ~)
+}
+void loop() {
+  int valor = analogRead(A0);           // Leer potenciómetro (0-1023)
+  int brillo = map(valor, 0, 1023, 0, 255);  // Convertir a rango PWM
+  analogWrite(9, brillo);               // Ajustar brillo
+}
+```
+
+
 
 ##### Ejercicio n° 2: Semáforo en Arduino.
 
