@@ -13,7 +13,7 @@ void loop() {
 }
 ```
 
-##### LED Intermitente (Blink)
+##### Ejercicio n° 2: LED Intermitente (Blink)
 ```js
 void setup() {  // Configuración inicial (ej: pines como entrada/salida)
   pinMode(13, OUTPUT);  // Pin 13 como salida
@@ -27,7 +27,7 @@ void loop() {   // Se repite infinitamente
 }
 ```
 
-##### Control por Pulsador
+##### Ejercicio n° 3: Control por Pulsador
 Objetivo: Encender un LED solo al presionar un botón. Circuito: Pulsador en pin 2 (con resistencia pull-down de 10k Ω). LED en pin 13.
 ```js
 void setup() {
@@ -43,7 +43,7 @@ void loop() {
 }
 ```
 
-##### LED con Potenciómetro
+##### Ejercicio n° 4: LED con Potenciómetro
 Objetivo: Regular brillo de un LED con un potenciómetro. Circuito: Potenciómetro: Patas extremas a +5V y GND, central a pin A0. LED en pin 9 (con resistencia 220 Ω).
 ```js
 void setup() {
