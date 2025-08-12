@@ -26,7 +26,7 @@ void loop() {   // Se repite infinitamente
   delay(1000);             // Esperar 1 segundo
 }
 ```
-<img src="https://raw.githubusercontent.com/mauricixx/INTERFAZII/refs/heads/main/img/LedParpadeante.png" width="1024" height="550" />
+<img src="https://raw.githubusercontent.com/mauricixx/INTERFAZII/refs/heads/main/img/LedParpadeante.png"/>
 
 
 ##### Ejercicio n° 3: Control por Pulsador
