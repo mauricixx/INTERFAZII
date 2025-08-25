@@ -108,3 +108,4 @@ void loop() {
   delay(2000); // 2 segundos
 }
 ```
+<img src="https://raw.githubusercontent.com/mauricixx/INTERFAZII/refs/heads/main/img/semaforo.png"/>
