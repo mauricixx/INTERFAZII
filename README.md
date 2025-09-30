@@ -1,4 +1,6 @@
-# INTERFAZ II
+### INTERFAZ II
+La clase trata de:
+entregar información sobre sensores y placas de Arduino.
 
 ##### Ejercicio n° 1: "Hola Mundo!" en Arduino.
 
